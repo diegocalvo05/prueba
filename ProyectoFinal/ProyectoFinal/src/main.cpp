@@ -1,9 +1,9 @@
-#include<iostream>
-
-using namespace std;
+#include "tree.h"
 
 int main()
 {
-	cout << "Hola mundo";
+
+	prueba();
+	
 	return 0;
 }
