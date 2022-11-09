@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\List.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\tree.h" />
+    <ClInclude Include="src\List.h" />
     <ClInclude Include="src\tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
